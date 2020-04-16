@@ -1,7 +1,9 @@
-console.log('what is a man');
+class Sorter {
+  collection: number[];
 
-const logSomething = () => {
-  console.log('a miserable pile of secrets');
-};
+  constructor(collection: number[]) {
+    this.collection = collection;
+  }
+}
 
-logSomething()
+const sorter = new Sorter([10, 4, -12, 80]);
