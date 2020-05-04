@@ -10,14 +10,19 @@ class Sorter {
 
         // only works if collection is number[]
         // if collection is an array of numbers
-        if (this.collection[j] > this.collection[j + 1]) {
-          const lefHand = this.collection[j];
-          this.collection[j] = this.collection[j + 1];
-          this.collection[j + 1] = lefHand;
+        if (this.collection instanceof Array) {
+          if (this.collection[j] > this.collection[j + 1]) {
+            const lefHand = this.collection[j];
+            this.collection[j] = this.collection[j + 1];
+            this.collection[j + 1] = lefHand;
+          }
         }
 
         // only going to work if collection is a string
         // if collection is a string do this logic instead:
+        if (typeof this.collection === 'string') {
+          
+        }
       }
     }
   }

@@ -7,3 +7,10 @@
 
 ## Bubble Sort
 double-nested for loops, that compares if the left-hand side > right-hand side, and if so, swap them. After the first iteration, the greatest number will be on the right hand side.
+
+## Type Guards
+Anytime we use a narrow type of a value to a primitive type (ie number, string, boolean, or symbol), we use the **typeof** in our type guard.
+
+To narrow down every other type of value (value that is created with a constructor function) we use **instanceof**.
+
+Even though arrays can be a typeof in javascript, it is NOT in typescript. We must use instanceof.
