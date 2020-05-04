@@ -1,6 +1,3 @@
 export class NumbersCollection {
-  data: number[];
-  constructor(data: number[]) {
-    this.data = data;
-  }
+  constructor(data: number[]) {}
 }
