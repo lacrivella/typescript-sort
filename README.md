@@ -31,3 +31,17 @@ Refactoring so the Sorter class is the parent class for NumbersCollection, Chara
 - The implemented methods can refer to other methods that don't actually exist yet (we still have to provide names and types for the un-implemneted methods)
 - Can makw child classes promise to implement some other method
 - you don't need to call super() in the child class if it doesn't have a constructor
+
+**Difference between Interfaces and Abstract Class**
+
+_interfaces_
+
+- sets up a contract between different classes
+- use when we have very different objects that we want to work together
+- promotes loose coupling
+
+_inheritance/abstract classes_
+
+- sets up a contract between different clases
+- use when we are trying to build up a definition of an object
+- strongly couples classes together
